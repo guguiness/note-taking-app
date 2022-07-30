@@ -18,12 +18,14 @@ namespace NoteApp {
     /// Interação lógica para MainWindow.xam
     /// </summary>
     public partial class MainWindow : Window {
+
         public MainWindow() {
             InitializeComponent();
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e) {
-            
+            string title = Convert.ToString(txtTitle),
+                   content = Convert.ToString(txtMessage);
         }
     }
 }

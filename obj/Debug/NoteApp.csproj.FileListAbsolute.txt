@@ -4,3 +4,13 @@ C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\MainWind
 C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\App.g.cs
 C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp_MarkupCompile.cache
 C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp_MarkupCompile.lref
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\bin\Debug\NoteApp.exe.config
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\bin\Debug\NoteApp.exe
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\bin\Debug\NoteApp.pdb
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\MainWindow.baml
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.g.resources
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.Properties.Resources.resources
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.csproj.GenerateResource.cache
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.csproj.CoreCompileInputs.cache
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.exe
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.pdb
