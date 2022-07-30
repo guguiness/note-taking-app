@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NoteApp {
-    internal class Message {
+    internal class Note {
         string title;
         string content;
 
-        public Message(string title, string content) {
+        public Note(string title, string content) {
             this.title = title;
             this.content = content;
         }
