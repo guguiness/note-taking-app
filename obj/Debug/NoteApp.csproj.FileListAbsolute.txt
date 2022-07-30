@@ -1,0 +1,6 @@
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.csproj.AssemblyReference.cache
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\MainWindow.g.cs
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\App.g.cs
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp_MarkupCompile.cache
+C:\Users\gnogu\Documents\MEGAsync\Projetos\C#\NoteApp\NoteApp\obj\Debug\NoteApp_MarkupCompile.lref
