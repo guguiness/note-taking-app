@@ -27,9 +27,16 @@ namespace NoteApp {
             string title = Convert.ToString(txtTitle.Text),
                    content = Convert.ToString(txtNote.Text);
 
-            List<Note> notes = new List<Note>();
-            notes.Add(new Note() { Title = title, Content = content });
-            lstMessages.ItemsSource = notes;
+        List<Note> notes = new List<Note>();
+        notes.Add(new Note() { Title = title, Content = content });
+        lstMessages.ItemsSource = notes;
+    }
+
+        private void btnRead_Click(object sender, RoutedEventArgs e) {
+            Note note = lstMessages.SelectedItem as Note;
+            
+            txtTitle.Text = note.Title;
+            txtNote.Text = note.Content;
         }
     }
 }
