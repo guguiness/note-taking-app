@@ -24,8 +24,8 @@ namespace NoteApp {
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e) {
-            string title = Convert.ToString(txtTitle),
-                   content = Convert.ToString(txtMessage);
+            string title = Convert.ToString(txtTitle.Text),
+                   content = Convert.ToString(txtMessage.Text);
         }
     }
 }
