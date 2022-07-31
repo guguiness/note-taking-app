@@ -8,15 +8,15 @@
         Title="Note Taking App" Height="310" Width="690">
     <Grid Margin="10,10,10,-6" RenderTransformOrigin="0.939,0.916">
         <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="15" Margin="99,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
-        <Label Content="Title&#xD;&#xA;" Margin="58,34,473,222"/>
-        <Label Content="Message&#xD;&#xA;" Margin="38,68,473,192"/>
         <Button x:Name="btnSave" Content="Save&#xD;&#xA;" HorizontalAlignment="Left" Margin="305,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnSave_Click"/>
         <Button x:Name="btnNew" Content="New&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="99,230,0,0" VerticalAlignment="Top" Height="20" Width="83"/>
-        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="135" Margin="99,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"/>
+        <TextBox x:Name="txtNote" HorizontalAlignment="Left" Height="135" Margin="99,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"/>
         <ListBox x:Name="lstMessages" HorizontalAlignment="Left" Height="143" Margin="419,68,0,0" VerticalAlignment="Top" Width="200" />
-        <Label x:Name="lblMessageList" Content="Message List&#xA;" Margin="419,27,0,228" HorizontalAlignment="Left" BorderThickness="0,0,0,0"/>
         <Button x:Name="btnRead" Content="Read&#xA;" HorizontalAlignment="Left" Margin="419,230,0,0" VerticalAlignment="Top" Height="20" Width="83"/>
         <Button x:Name="btnDelete" Content="Delete&#xA;" HorizontalAlignment="Left" Margin="536,230,0,0" VerticalAlignment="Top" Height="20" Width="83"/>
+        <Label x:Name="lblTitle" Content="Title" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,32,0,0"/>
+        <Label x:Name="lblNote" Content="Note" HorizontalAlignment="Left" Margin="58,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNoteList" Content="Message List" HorizontalAlignment="Left" Margin="419,32,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
