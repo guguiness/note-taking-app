@@ -18,5 +18,9 @@ namespace NoteApp {
             get { return this.content; }
             set { this.content = value; }
         }
+
+        public override string ToString() {
+            return this.title;
+        }
     }
 }
