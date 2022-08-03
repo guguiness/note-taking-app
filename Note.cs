@@ -11,7 +11,7 @@ namespace NoteApp {
         bool open;
 
         public Note() {
-            
+            this.Open = false;
         }
 
         public string Title {
