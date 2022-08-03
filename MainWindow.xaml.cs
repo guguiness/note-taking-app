@@ -37,6 +37,7 @@ namespace NoteApp {
             
             txtTitle.Text = note.Title;
             txtNote.Text = note.Content;
+            note.Open = true;
         }
     }
 }
