@@ -41,11 +41,14 @@ namespace NoteApp {
 
         private void btnDelete_Click(object sender, RoutedEventArgs e) {
             Note note = lstMessages.SelectedItem as Note;
+            int noteIndex = lstMessages.Items.IndexOf(note);
 
             if(txtTitle.Text == note.Title && txtNote.Text == note.Content) {
                 txtTitle.Text = "";
                 txtNote.Text = "";
             }
+
+            lstMessages.Items.Remove(note);
         }
     }
 }
