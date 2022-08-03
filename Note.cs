@@ -8,6 +8,11 @@ namespace NoteApp {
     internal class Note {
         string title;
         string content;
+        bool open;
+
+        public Note() {
+            
+        }
 
         public string Title {
             get { return this.title; }
@@ -17,6 +22,11 @@ namespace NoteApp {
         public string Content {
             get { return this.content; }
             set { this.content = value; }
+        }
+
+        public bool Open {
+            get { return this.open; }
+            set { this.open = value; }
         }
 
         public override string ToString() {
