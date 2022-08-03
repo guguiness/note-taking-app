@@ -9,7 +9,7 @@
     <Grid Margin="10,10,10,-6" RenderTransformOrigin="0.939,0.916">
         <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="15" Margin="99,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
         <Button x:Name="btnSave" Content="Save&#xD;&#xA;" HorizontalAlignment="Left" Margin="305,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnSave_Click"/>
-        <Button x:Name="btnNew" Content="New&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="99,230,0,0" VerticalAlignment="Top" Height="20" Width="83"/>
+        <Button x:Name="btnNew" Content="New&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="99,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnNew_Click"/>
         <TextBox x:Name="txtNote" HorizontalAlignment="Left" Height="135" Margin="99,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"/>
         <ListBox x:Name="lstMessages" HorizontalAlignment="Left" Height="143" Margin="419,68,0,0" VerticalAlignment="Top" Width="200" />
         <Button x:Name="btnRead" Content="Read&#xA;" HorizontalAlignment="Left" Margin="419,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnRead_Click"/>

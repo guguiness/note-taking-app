@@ -50,5 +50,10 @@ namespace NoteApp {
 
             lstMessages.Items.Remove(note);
         }
+
+        private void btnNew_Click(object sender, RoutedEventArgs e) {
+            txtTitle.Text = "";
+            txtNote.Text = "";
+        }
     }
 }
