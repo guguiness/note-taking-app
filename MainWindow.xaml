@@ -13,7 +13,7 @@
         <TextBox x:Name="txtNote" HorizontalAlignment="Left" Height="135" Margin="99,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"/>
         <ListBox x:Name="lstMessages" HorizontalAlignment="Left" Height="143" Margin="419,68,0,0" VerticalAlignment="Top" Width="200" />
         <Button x:Name="btnRead" Content="Read&#xA;" HorizontalAlignment="Left" Margin="419,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnRead_Click"/>
-        <Button x:Name="btnDelete" Content="Delete&#xA;" HorizontalAlignment="Left" Margin="536,230,0,0" VerticalAlignment="Top" Height="20" Width="83"/>
+        <Button x:Name="btnDelete" Content="Delete&#xA;" HorizontalAlignment="Left" Margin="536,230,0,0" VerticalAlignment="Top" Height="20" Width="83" Click="btnDelete_Click"/>
         <Label x:Name="lblTitle" Content="Title" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,32,0,0"/>
         <Label x:Name="lblNote" Content="Note" HorizontalAlignment="Left" Margin="58,68,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblNoteList" Content="Message List" HorizontalAlignment="Left" Margin="419,32,0,0" VerticalAlignment="Top"/>

@@ -37,7 +37,15 @@ namespace NoteApp {
             
             txtTitle.Text = note.Title;
             txtNote.Text = note.Content;
-            note.Open = true;
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e) {
+            Note note = lstMessages.SelectedItem as Note;
+
+            if(txtTitle.Text == note.Title && txtNote.Text == note.Content) {
+                txtTitle.Text = "";
+                txtNote.Text = "";
+            }
         }
     }
 }
